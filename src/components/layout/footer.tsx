@@ -7,10 +7,10 @@ const Footer = () => {
     <footer className="bg-card text-card-foreground border-t">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-6 sm:flex-row">
         <div className="text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Loka Daring. All rights reserved.
+          © {new Date().getFullYear()} Yasril Adim Al-Amin. All rights reserved.
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" asChild>
+          {/* <Button variant="ghost" size="icon" asChild>
             <Link href="https://twitter.com" target="_blank" aria-label="Twitter">
               <Twitter className="h-4 w-4" />
             </Link>
@@ -24,7 +24,7 @@ const Footer = () => {
             <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
               <Linkedin className="h-4 w-4" />
             </Link>
-          </Button>
+          </Button> */}
         </div>
       </div>
     </footer>
