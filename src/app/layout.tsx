@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Loka Daring | Personal Portfolio',
-  description: 'A personal portfolio website to showcase work and skills.',
+  title: 'Yasril Adim Al - Amin | Personal Portfolio',
+  description: 'Yasril personal portfolio website.',
 };
 
 export default function RootLayout({

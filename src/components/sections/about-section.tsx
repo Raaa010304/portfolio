@@ -9,12 +9,12 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="md:col-span-1">
               <Image
-                src="https://placehold.co/600x800.png"
-                alt="Portrait of the author"
+                src="/my_foto.jpg"
+                alt="Portrait of the author" // TODO: Replace with a real description of the image
                 width={600}
                 height={800}
-                className="h-full w-full object-cover"
-                data-ai-hint="professional portrait"
+                className="h-full w-full object-cover object-top"
+ data-ai-hint="Potret seorang seniman 3D dan pengembang game"
               />
             </div>
             <div className="md:col-span-2">
@@ -23,13 +23,13 @@ const AboutSection = () => {
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground">
                 <p>
-                  I'm a passionate and results-driven full-stack developer with a knack for creating modern, responsive, and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I enjoy bringing ideas to life, from concept to deployment.
+ I am a passionate 3D artist specializing in modeling and also a game developer. With a strong foundation in 3D art and game development, I enjoy the process of bringing creative ideas to life, from concept to implementation.
                 </p>
                 <p>
-                  My journey in web development started with a fascination for how websites work, which quickly grew into a full-fledged passion. I thrive on challenges and am constantly learning new technologies to stay at the forefront of the ever-evolving tech landscape.
+ My journey in 3D art and game development started with a deep fascination for how digital worlds can be created and brought to life, which quickly evolved into a full-fledged passion. I thrive on tackling challenges and continuously learning new techniques and technologies to stay at the forefront of the ever-evolving creative landscape.
                 </p>
                 <p>
-                  When I'm not coding, you can find me exploring new hiking trails, experimenting with new recipes in the kitchen, or contributing to open-source projects.
+ When I'm not working, you can find me exploring new art ideas, experimenting with new game concepts, or contributing to the creative community.
                 </p>
               </CardContent>
             </div>

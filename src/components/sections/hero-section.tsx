@@ -7,10 +7,10 @@ const HeroSection = () => {
     <section id="home" className="relative flex h-[calc(100vh-4rem)] w-full items-center justify-center bg-secondary">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary">
-          Loka Daring
+          Yasril Adim Al-Amin
         </h1>
         <p className="mx-auto mt-4 max-w-[700px] text-lg text-muted-foreground md:text-xl">
-          A Creative Full-Stack Developer Crafting Modern Web Experiences
+          A 3D Artist specializing in Modeling, Animation, and a Passionate Game Developer
         </p>
         <div className="mt-8 flex justify-center gap-4">
           <Button asChild size="lg">

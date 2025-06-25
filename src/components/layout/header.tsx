@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <Mountain className="h-6 w-6 text-primary" />
-          <span className="font-headline">Loka Daring</span>
+          <span className="font-headline">Yasril Adim Al-Amin</span>
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">
