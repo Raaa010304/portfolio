@@ -50,7 +50,7 @@ const ContactSection = () => {
       description: "Thanks for reaching out. I'll get back to you soon.",
     });
     const { name, email, message } = values;
-    const mailtoLink = `mailto:your-email@example.com?subject=Message from ${encodeURIComponent(name)} (${encodeURIComponent(email)})&body=${encodeURIComponent(message)}`; // Replace 'your-email@example.com' with your actual email address
+    const mailtoLink = `mailto:yasrilalamin7@gmail.com?subject=Message from ${encodeURIComponent(name)} (${encodeURIComponent(email)})&body=${encodeURIComponent(message)}`; // Replace 'your-email@example.com' with your actual email address
     window.open(mailtoLink, '_blank');
     form.reset();
   }
