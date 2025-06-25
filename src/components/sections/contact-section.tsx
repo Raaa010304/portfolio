@@ -17,6 +17,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Mail, Send } from 'lucide-react';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa'; // Using react-icons for Instagram and LinkedIn
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -48,6 +49,9 @@ const ContactSection = () => {
       title: 'Message Sent!',
       description: "Thanks for reaching out. I'll get back to you soon.",
     });
+    const { name, email, message } = values;
+    const mailtoLink = `mailto:your-email@example.com?subject=Message from ${encodeURIComponent(name)} (${encodeURIComponent(email)})&body=${encodeURIComponent(message)}`; // Replace 'your-email@example.com' with your actual email address
+    window.open(mailtoLink, '_blank');
     form.reset();
   }
 
@@ -112,6 +116,22 @@ const ContactSection = () => {
                 </div>
               </form>
             </Form>
+            <div className="mt-8 text-center">
+              <p className="text-lg text-muted-foreground mb-4">Connect with me on social media:</p>
+              <div className="flex justify-center space-x-6">
+                <a
+                  href="YOUR_LINKEDIN_URL" // Replace with your LinkedIn URL
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 hover:text-primary transition-colors"
+> {/* Replace with your LinkedIn URL */}
+                  <FaLinkedin size={32} />
+                </a>
+                <a href="https://www.instagram.com/ysrlalamien/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary transition-colors"> {/* Replace with your Instagram URL */}
+                  <FaInstagram size={32} />
+                </a>
+              </div>
+            </div>
           </CardContent>
         </Card>
       </div>

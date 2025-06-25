@@ -41,7 +41,7 @@ const ProjectCard = ({ title, description, tags, imageUrl, imageHint, liveUrl, g
           ))}
         </div>
       </CardContent>
-      <CardFooter className="flex justify-end gap-2">
+      {/* <CardFooter className="flex justify-end gap-2">
         {liveUrl && (
           <Button variant="outline" size="sm" asChild>
             <Link href={liveUrl} target="_blank">
@@ -58,7 +58,7 @@ const ProjectCard = ({ title, description, tags, imageUrl, imageHint, liveUrl, g
             </Link>
           </Button>
         )}
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   );
 };
