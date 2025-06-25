@@ -120,7 +120,7 @@ const ContactSection = () => {
               <p className="text-lg text-muted-foreground mb-4">Connect with me on social media:</p>
               <div className="flex justify-center space-x-6">
                 <a
-                  href="YOUR_LINKEDIN_URL" // Replace with your LinkedIn URL
+                  href="https://www.linkedin.com/in/yasril-al-amin-a6698a2ab/" // Replace with your LinkedIn URL
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-primary transition-colors"
